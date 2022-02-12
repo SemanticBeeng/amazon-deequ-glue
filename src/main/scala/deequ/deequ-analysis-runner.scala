@@ -1,3 +1,5 @@
+package deequ
+
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import com.amazonaws.services.glue.ChoiceOption
@@ -54,7 +56,7 @@ import scala.reflect.runtime.currentMirror
 import scala.tools.reflect.ToolBox
 import java.io._
 
-object GlueApp {
+object GlueApp1 {
 
   val sparkContext: SparkContext = new SparkContext()
   val glueContext: GlueContext = new GlueContext(sparkContext)

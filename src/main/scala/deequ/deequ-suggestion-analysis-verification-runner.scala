@@ -1,3 +1,5 @@
+package deequ
+
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import com.amazonaws.services.glue.ChoiceOption
@@ -6,7 +8,7 @@ import com.amazonaws.services.glue.MappingSpec
 import com.amazonaws.services.glue.ResolveSpec
 import com.amazonaws.services.glue.errors.CallSite
 import com.amazonaws.services.glue.util.GlueArgParser
-import com.amazonaws.services.glue.util.Job
+import com.amazonaws.services.glue.model._
 import com.amazonaws.services.glue.util.JsonOptions
 import org.apache.spark.SparkContext
 
@@ -52,7 +54,7 @@ import java.util.Date
 import java.util.Properties
 import java.util.UUID.randomUUID
 
-object GlueApp {
+object GlueApp4 {
   def main(sysArgs: Array[String]) {
     val sparkContext: SparkContext = new SparkContext()
     val glueContext: GlueContext = new GlueContext(sparkContext)

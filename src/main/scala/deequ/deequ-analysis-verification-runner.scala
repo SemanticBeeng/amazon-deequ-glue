@@ -1,3 +1,5 @@
+package deequ
+
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import com.amazonaws.services.glue.ChoiceOption
@@ -63,7 +65,7 @@ import java.io._
 import java.util.ArrayList
 import java.util.Iterator
 
-object GlueApp {
+object GlueApp2 {
 
   val sparkContext: SparkContext = new SparkContext()
   val glueContext: GlueContext = new GlueContext(sparkContext)

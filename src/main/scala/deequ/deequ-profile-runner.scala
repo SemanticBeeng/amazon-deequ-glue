@@ -1,3 +1,5 @@
+package deequ
+
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import java.time.LocalDate
@@ -24,7 +26,7 @@ import org.apache.spark.sql.types
 
 import com.amazon.deequ.profiles.{ColumnProfilerRunner, NumericColumnProfile}
 
-object GlueApp {
+object GlueApp3 {
 
   val sc: SparkContext = new SparkContext()
   val glueContext: GlueContext = new GlueContext(sc)

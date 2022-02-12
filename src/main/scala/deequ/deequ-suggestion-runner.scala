@@ -1,3 +1,5 @@
+package deequ
+
 // Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 // SPDX-License-Identifier: MIT-0
 import com.amazonaws.services.glue.ChoiceOption
@@ -45,7 +47,7 @@ import java.util.UUID.randomUUID
 /** *
  *
  */
-object GlueApp {
+object GlueApp5 {
 
   val sparkContext: SparkContext = new SparkContext()
   val glueContext: GlueContext = new GlueContext(sparkContext)
